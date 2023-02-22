@@ -1,0 +1,7 @@
+.lead {
+    margin: 0 auto;
+    margin: 56px 148px 0 148px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

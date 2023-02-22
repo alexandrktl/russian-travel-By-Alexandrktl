@@ -1,0 +1,10 @@
+.train-map {
+    display: flex;
+    background-image: url(../../images/train-map.svg);
+    width: 984px;
+    height: 615px;
+    margin: auto;
+    margin-top: 64px;
+   
+
+}

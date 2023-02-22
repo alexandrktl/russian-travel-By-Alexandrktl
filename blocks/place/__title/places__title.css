@@ -1,0 +1,7 @@
+.places__title{
+    text-align: left;
+    /*max-width: 460px;*/
+    grid-row: 1/2;
+    grid-column: 1/2;
+    
+}

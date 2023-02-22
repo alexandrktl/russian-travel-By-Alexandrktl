@@ -1,0 +1,12 @@
+.photo-grid {
+    max-width: 1184px;
+    min-height: 670px;
+    margin: 92px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

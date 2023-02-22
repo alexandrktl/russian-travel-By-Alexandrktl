@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  height: fit-content;
+  margin: auto;
+  font-family: "Inter", "Arial", "sans-serif";
+  padding: 0;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.paragraph {
+    display: flex;
+    max-width: 484px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin:0 auto 26px 0;
+    color: white;
+    
+    
+}
+.paragraph:last-child{
+    margin-bottom: 0;
+}
+

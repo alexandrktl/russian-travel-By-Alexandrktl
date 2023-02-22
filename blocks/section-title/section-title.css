@@ -1,0 +1,12 @@
+.section-title {
+    display: flex;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0;
+    
+}
+
+

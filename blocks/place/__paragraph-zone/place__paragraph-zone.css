@@ -1,0 +1,8 @@
+.place__paragraph-zone{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}

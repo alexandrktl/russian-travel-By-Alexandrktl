@@ -1,0 +1,8 @@
+.cover__title{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    margin: 245px auto 0 auto;
+    width: 560px;
+    z-index: 2;
+}

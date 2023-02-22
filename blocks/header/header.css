@@ -1,0 +1,11 @@
+.header {
+  
+    /* при АВТО он растягивается, потом буду доделывать под разные варианты окон */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 28px 48px 0 48px;
+}
+

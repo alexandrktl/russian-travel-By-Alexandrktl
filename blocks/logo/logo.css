@@ -1,0 +1,14 @@
+.logo {
+    width: 176px;
+    height: 52px;
+    display: flex;
+}
+
+@media screen and (max-width: 320px) {
+
+    /* стили для малого смартфона */
+    .logo {
+        width: 142px;
+        height: 42px;
+    }
+}

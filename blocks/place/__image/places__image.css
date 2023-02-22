@@ -1,0 +1,8 @@
+.places__image {
+    display: flex;
+    width: 460px;
+    height: 460px;
+    margin: 0;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
