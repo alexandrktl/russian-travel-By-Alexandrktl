@@ -6,7 +6,43 @@
     text-align: center;
     color: #FFFFFF;
     padding: 0;
+    box-sizing: border-box;
+    margin: 0px 280px 0 280px;
     
 }
 
+@media screen and (max-width: 320px) {
+    .section-title   {
+        margin: 0 16px 0 16px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 110%;
+        
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 768px) {
+    .section-title   {
+        margin: 0 24px 0 24px;
+        font-weight: 900;
+        font-size: 96px;
+        /* font-size: 96px; */
+        line-height: 104%;       
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .section-title   {
+        margin: 0 152px 0 152px;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 104%;  
+    }
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1279px) {
+    .section-title   {
+        margin: 0px 152px 0 152px;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 104%;  
+    }
+  }
 

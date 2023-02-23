@@ -5,6 +5,40 @@
     height: 615px;
     margin: auto;
     margin-top: 64px;
-   
+    background-size: contain;
+    background-repeat: no-repeat;
 
+}
+
+@media screen and (max-width: 320px) {
+    .train-map {
+        width: 100%;
+        height: 200px;
+        margin-top: 40px;
+
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .train-map {
+        width: 100%;
+        height: 480px;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .train-map {
+        width: 90.625%;
+        height: 580px;
+        margin: 56px 48px 0 48px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .train-map {
+        width: 984px;
+        height: 615px;
+        margin: 64px 148px 0 148px;
+    }
 }
