@@ -1,8 +1,9 @@
 .places {
-    min-width: 984px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0;
     justify-items:center ;
+    width: 100%;
+    box-sizing: border-box;
 }
 

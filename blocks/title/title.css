@@ -4,4 +4,48 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 109%;
+        /* identical to box height, or 109% */
+        margin: 0 16px;
+    }
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+
+    }
 }

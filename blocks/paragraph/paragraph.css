@@ -1,15 +1,53 @@
 .paragraph {
     display: flex;
-    max-width: 484px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    margin:0 auto 26px 0;
+    margin: 0 auto 26px 0;
     color: white;
-    
-    
+
+
 }
-.paragraph:last-child{
+
+.paragraph:last-child {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 320px) {
+    .paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        margin: 0 auto 25px 0;
+    }
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .paragraph {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .paragraph {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .paragraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 163%;
+
+    }
+}

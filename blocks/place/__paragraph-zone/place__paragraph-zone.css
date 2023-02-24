@@ -3,6 +3,38 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    grid-row: 2/3;
-    grid-column: 2/3;
+   
+}
+@media screen and (max-width: 320px) {
+    .place__paragraph-zone {
+        grid-row: 4/5;
+        margin: 0 16px;
+
+    }
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .place__paragraph-zone {
+       
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__paragraph-zone {
+    
+
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .place__paragraph-zone {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
 }

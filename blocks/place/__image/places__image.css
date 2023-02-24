@@ -1,8 +1,41 @@
 .places__image {
     display: flex;
-    width: 460px;
-    height: 460px;
     margin: 0;
-    grid-row: 2/3;
-    grid-column: 1/2;
+}
+
+@media screen and (max-width: 320px) {
+    .places__image {
+        grid-row: 3/4;
+        width: 320px;
+        height: 320px;
+    }
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .places__image {
+        /* grid-row: 1/2;
+        grid-column: 1/2; */
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .places__image {
+        /* grid-row: 1/2;
+        grid-column: 1/2; */
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .places__image {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 460px;
+        height: 460px;
+    }
 }
