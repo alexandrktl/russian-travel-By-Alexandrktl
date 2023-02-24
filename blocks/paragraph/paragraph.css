@@ -2,8 +2,6 @@
     display: flex;
     margin: 0 auto 26px 0;
     color: white;
-
-
 }
 
 .paragraph:last-child {
@@ -23,10 +21,10 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .paragraph {
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
-
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        margin: 0 auto 25px 0;
     }
 
 }

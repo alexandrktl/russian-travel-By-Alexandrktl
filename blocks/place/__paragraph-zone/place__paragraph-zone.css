@@ -17,7 +17,9 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place__paragraph-zone {
-       
+        grid-row: 2/3;
+        grid-column: 2/3;
+        max-width: 352px;
     }
 
 }

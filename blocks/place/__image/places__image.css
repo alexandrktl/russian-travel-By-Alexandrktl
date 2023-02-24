@@ -15,8 +15,10 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .places__image {
-        /* grid-row: 1/2;
-        grid-column: 1/2; */
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 340px;
+        height: 340px;
     }
 
 }
