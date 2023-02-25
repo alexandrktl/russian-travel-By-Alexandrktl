@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .paragraph {
         font-weight: 400;
         font-size: 18px;

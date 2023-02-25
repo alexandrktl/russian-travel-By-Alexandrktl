@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: auto;
     justify-content: flex-start;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 }
 
 @media screen and (max-width: 320px) {
@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px)  {
     .intro {
         margin: 92px 148px 0 148px ;
     }

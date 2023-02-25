@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px)  {
     .copyright {
         margin: 0 0 0 auto;
         line-height: 114%;

@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px)  {
     .train-map {
         width: 984px;
         height: 615px;

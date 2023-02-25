@@ -35,7 +35,7 @@
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .places__image {
         grid-row: 2/3;
         grid-column: 1/2;

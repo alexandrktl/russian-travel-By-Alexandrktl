@@ -7,13 +7,13 @@
   font-family: "Inter", "Arial", "sans-serif";
   padding: 0;
   width: 100%;
-  background-color: tomato;
+  /* background-color: tomato; */
   box-sizing: border-box;
 }
 
 
 
-
+/* 
 @media screen and (max-width: 320px) {
   .page {
       background-color: blue;
@@ -29,8 +29,8 @@
       background-color: rgb(23, 241, 49);
   }
 }
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px)  {
   .page {
       background-color: rgb(8, 198, 211);
   }
-}
+} */

@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px)  {
     .medium-title {
         font-weight: 900;
         font-size: 54px;
