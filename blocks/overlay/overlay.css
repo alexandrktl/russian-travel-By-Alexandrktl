@@ -1,5 +1,5 @@
 .overlay {
-    width: 1184px;
+    width: 100%;
     height: 740px;
     margin: 0;
     position: absolute;
@@ -10,31 +10,21 @@
 
 @media screen and (max-width: 320px) {
     .overlay {
-        width: 320px;
         height: 200px;
     }
-
-
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .overlay {
-        font-weight: 900;
-        font-size: 42px;
-        line-height: 110%;
-
+        height: 480px;
     }
-
 }
 
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .overlay {
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 106%;
-        
+        height: 640px;
 
     }
 }
@@ -42,9 +32,8 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .overlay {
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 106%;
+        height: 740px;
+        width: 1184px;
 
     }
 }
