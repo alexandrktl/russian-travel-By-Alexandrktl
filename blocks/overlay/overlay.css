@@ -7,3 +7,44 @@
     background: #2A2C2F;
     opacity: 0.3;
 }
+
+@media screen and (max-width: 320px) {
+    .overlay {
+        width: 320px;
+        height: 200px;
+    }
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .overlay {
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 110%;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .overlay {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 106%;
+        
+
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .overlay {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 106%;
+
+    }
+}

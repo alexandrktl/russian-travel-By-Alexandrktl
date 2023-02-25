@@ -5,5 +5,49 @@
     display: flex;
     flex-direction: column;
     background-image: url(../../images/trains-on-sunrise.png);
+    background-size: cover;
+    box-sizing: border-box;
 
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        width: 320px;
+        height: 200px;
+        margin: 66px 0 0 0; 
+    }
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .cover {
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 110%;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 106%;
+        
+
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .cover {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 106%;
+
+    }
 }
