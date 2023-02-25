@@ -5,6 +5,63 @@
     font-size: 16px;
     line-height: 18px;
 }
-.footer__link:last-child{
+
+.footer__link:last-child {
     margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        flex-direction: column;
+        width: 186px;
+        margin: 32px auto 0 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        
+    }
+
+    .footer__link:first-child{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .footer__link {
+        height: 480px;
+        margin: 90px 0 0 0;
+
+    }
+
+    .footer__link:last-child {
+        margin-right: 0;
+    }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer__link {
+        height: 640px;
+        margin: 92px 0 0 0;
+
+    }
+
+    .footer__link:last-child {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .footer__link {
+        width: 1184px;
+        height: 740px;
+        margin: 92px auto 0 auto;
+
+    }
+
+    .footer__link:last-child {
+        margin-right: 0;
+    }
 }
