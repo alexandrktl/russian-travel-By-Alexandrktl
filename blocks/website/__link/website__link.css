@@ -7,3 +7,6 @@
     text-decoration-line: underline;
     margin-top: 12px;
 }
+.website-link:hover{
+    opacity: 0.8;
+}

@@ -1,4 +1,4 @@
-.cover {
+.cover{
     width: 100%;
     height: 740px;
     margin: 92px auto 0 auto;
@@ -7,8 +7,21 @@
     background-image: url(../../images/trains-on-sunrise.png);
     background-size: cover;
     box-sizing: border-box;
+    text-decoration: none;
 
 }
+
+
+.cover:hover .overlay{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 320px) {
     .cover {

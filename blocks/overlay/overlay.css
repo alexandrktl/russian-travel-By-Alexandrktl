@@ -8,6 +8,7 @@
     opacity: 0.3;
 }
 
+
 @media screen and (max-width: 320px) {
     .overlay {
         height: 200px;
