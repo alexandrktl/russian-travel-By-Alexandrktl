@@ -43,25 +43,11 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/place/__paragraph-zone/place__paragraph-zone.css);
+@import url(../blocks/intro/__li/intro__li.css);
+@import url(../blocks/intro/__span/intro__span.css);
 
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+
+/* *{
+    border: solid 1px red ;
+} */
+/* @import url(); */
