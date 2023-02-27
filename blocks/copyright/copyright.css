@@ -6,7 +6,7 @@
     line-height: 16px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px){
     .copyright {
         margin: 48px auto 0 0;
         font-weight: 400;
@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .copyright {
         
         margin: 0 0 0 auto;

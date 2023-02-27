@@ -1,7 +1,7 @@
-.grid-image {}
+.grid-image {
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     .grid-image {
         width: 288px;
         height: 216px;
@@ -28,4 +28,5 @@
         width: 284px;
         height: 213px;
     }
+}
 }

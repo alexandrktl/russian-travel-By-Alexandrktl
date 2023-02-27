@@ -8,7 +8,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px){
     .paragraph {
         font-weight: 400;
         font-size: 16px;
@@ -19,7 +19,7 @@
 
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .paragraph {
         font-weight: 400;
         font-size: 16px;

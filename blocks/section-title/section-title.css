@@ -11,7 +11,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     .section-title   {
         margin: 0 16px 0 16px;
         font-weight: 900;
@@ -20,7 +20,7 @@
         
     }
   }
-  @media screen and (min-width: 321px) and (max-width: 768px) {
+  @media screen and (min-width: 426px) and (max-width: 768px) {
     .section-title   {
         margin: 0 24px 0 24px;
         font-weight: 900;

@@ -12,7 +12,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     .cover__subtitle {
         font-weight: 400;
         font-size: 14px;
@@ -24,7 +24,7 @@
 
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .cover__subtitle {
 
         margin: 32px 204px 0 204px;
