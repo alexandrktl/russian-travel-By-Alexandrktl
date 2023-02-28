@@ -34,7 +34,7 @@
 @media screen and (min-width: 1025px)  {
     .overlay {
         height: 740px;
-        width: 1184px;
+        max-width: 1184px;
 
     }
 }

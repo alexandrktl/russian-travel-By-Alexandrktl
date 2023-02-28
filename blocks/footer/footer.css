@@ -10,24 +10,31 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
     .footer {
         flex-direction: column;
-        width: 186px;
+        max-width: 100%;
         margin: 64px auto 24px 16px;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
     .footer {
-        width: 720px;
+        max-width: 720px;
         margin: 88px 24px 24px 24px;
-
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:900px) {
+    .footer {
+        max-width: 720px;
+        margin: 88px 24px 24px 24px;
+        
     }
 }
 
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) and (max-width: 1024px) {
     .footer {
-        width: 928px;
+        max-width: 928px;
         margin: 92px 48px 24px 48px;
 
     }
@@ -36,7 +43,7 @@
 
 @media screen and (min-width: 1025px)  {
     .footer {
-        width: 1184px;
+        max-width: 1184px;
         margin: 92px 48px 24px 48px;
     }
 }
