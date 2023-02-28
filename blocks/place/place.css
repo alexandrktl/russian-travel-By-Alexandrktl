@@ -3,14 +3,14 @@
     margin-top: 80px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    
+    margin: 0 auto;
 }
 .place:first-child {
     margin-top: 92px;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and  (max-width: 500px) {
     .place {
         grid-template-columns: 320px;
         grid-template-rows: auto ;

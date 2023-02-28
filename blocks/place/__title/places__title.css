@@ -7,7 +7,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and  (max-width: 500px){
     .places__title {
         grid-row: 1/2;
         font-weight: 900;
