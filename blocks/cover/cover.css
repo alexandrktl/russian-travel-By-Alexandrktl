@@ -8,13 +8,24 @@
     background-size: cover;
     box-sizing: border-box;
     text-decoration: none;
+    position: relative;
+    z-index: 0;
 
 }
 
-
-.cover:hover .overlay {
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 44, 47, 0.3);
+    z-index: -1;
+}
+ .cover:hover::before{
     opacity: 0.8;
-}
+} 
 
 
 

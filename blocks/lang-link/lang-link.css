@@ -14,3 +14,6 @@
         font-weight: 400;
     }
 }
+.lang-link:hover{
+    opacity: 0.8;
+}

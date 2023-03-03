@@ -35,7 +35,6 @@
 @import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/overlay/overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
@@ -44,7 +43,8 @@
 @import url(../blocks/place/__paragraph-zone/place__paragraph-zone.css);
 @import url(../blocks/intro/__li/intro__li.css);
 @import url(../blocks/intro/__span/intro__span.css);
-
+@import url(../blocks/lang-link/__case/_off/lang-link__case_off.css);
+@import url(../blocks/lang-link/__case/_on/lang-link__case_on.css);
 
 /* *{
     border: solid 1px red ;
