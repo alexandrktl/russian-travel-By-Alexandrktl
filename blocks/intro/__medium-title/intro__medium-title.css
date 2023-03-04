@@ -1,3 +1,23 @@
 .intro__medium-title {
     display: flex;
+    color: white;
+    margin: 0;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width: 320px) {
+    .intro__medium-title {
+        font-size: 32px;
+        line-height: 109%;
+        /* or 109% */
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .intro__medium-title {
+        font-size: 54px;
+        line-height: 107%;
+        /* identical to box height, or 107% */
+    }
 }

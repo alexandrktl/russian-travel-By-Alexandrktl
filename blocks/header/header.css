@@ -1,34 +1,30 @@
 .header {
-  
-    /* при АВТО он растягивается, потом буду доделывать под разные варианты окон */
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 28px 48px 0 48px;
+
+  /* при АВТО он растягивается, потом буду доделывать под разные варианты окон */
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 
-@media screen  and (max-width: 425px) {
-    .header  {
-        margin: 16px 16px 0 16px ;
-        
-    }
+@media screen and (max-width: 425px) {
+  .header {
+    margin: 16px 16px 0 16px;
+
   }
-  @media screen and (min-width: 426px) and (max-width: 768px) {
-    .header  {
-        margin: 28px 24px 0 24px ;               
-    }
+}
+
+@media screen and (min-width: 426px) {
+  .header {
+    margin: 28px 24px 0 24px;
   }
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .header  {
-        margin: 28px 48px 0 48px ;
-    }
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    margin: 28px 48px 0 48px;
   }
-  @media screen and (min-width: 1025px)  {
-    .header  {
-        margin: 28px 48px 0 48px ;
-    }
-  }
+}
 

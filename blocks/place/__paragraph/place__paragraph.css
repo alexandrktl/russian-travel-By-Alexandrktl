@@ -1,0 +1,26 @@
+.place__paragraph {
+    display: flex;
+    margin: 0 auto 26px 0;
+    color: white;
+}
+
+.paragraph:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        margin: 0 auto 25px 0;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .paragraph {
+        font-size: 18px;
+        margin: 0 auto 27px 0;
+    }
+}

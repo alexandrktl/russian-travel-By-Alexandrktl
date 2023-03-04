@@ -1,6 +1,8 @@
 .intro__regular-text {
-
     text-align: left;
-    margin: 40px 0 0 0 ;
-    
+    margin: 40px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: white;
 }

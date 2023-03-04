@@ -1,9 +1,9 @@
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 0;
-
+    
 
 }
 
@@ -12,28 +12,18 @@
         flex-direction: column;
         max-width: 100%;
         margin: 64px auto 24px 16px;
+        min-height: 310px;
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 767px) {
+@media screen and (min-width: 601px) {
     .footer {
         max-width: 720px;
         margin: 88px 24px 24px 24px;
-        flex-direction: column;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:900px) {
-    .footer {
-        max-width: 720px;
-        margin: 88px 24px 24px 24px;
-
-    }
-}
-
-
-
-@media screen and (min-width: 901px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) {
     .footer {
         max-width: 928px;
         margin: 92px 48px 24px 48px;
@@ -45,6 +35,5 @@
 @media screen and (min-width: 1025px) {
     .footer {
         max-width: 1184px;
-        margin: 92px 48px 24px 48px;
     }
 }

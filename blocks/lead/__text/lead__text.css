@@ -1,0 +1,37 @@
+.lead__text{
+    display: flex;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    color: white;
+    margin: 8px auto 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 320px) {
+    .lead__text {
+        margin: 8px auto 0 16px;
+        /* identical to box height, or 140% */
+
+
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .lead__text {
+        margin: 8px auto 0 24px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .lead__text {
+        margin: 8px auto 0 48px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .lead__text {
+        margin: 8px auto 0 148px;
+    }
+}

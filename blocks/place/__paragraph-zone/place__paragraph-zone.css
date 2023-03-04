@@ -16,7 +16,7 @@
 
 }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+@media screen and (min-width: 501px) {
     .place__paragraph-zone {
         grid-row: 2/3;
         grid-column: 2/3;
@@ -27,11 +27,9 @@
 
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
     .place__paragraph-zone {
 
-        grid-row: 2/3;
-        grid-column: 2/3;
         max-width: 456px;
     }
 }
@@ -39,8 +37,6 @@
 
 @media screen and (min-width: 1025px) {
     .place__paragraph-zone {
-        grid-row: 2/3;
-        grid-column: 2/3;
         max-width: 484px;
     }
 }

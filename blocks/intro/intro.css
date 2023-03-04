@@ -1,4 +1,4 @@
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -8,26 +8,26 @@
 
 @media screen and (max-width: 320px) {
     .intro {
-        margin: 64px 16px 0 16px ;
+        margin: 64px 16px 0 16px;
         padding-right: 65px;
 
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) {
     .intro {
-        margin: 88px 24px 0 24px ;
+        margin: 88px 24px 0 24px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
     .intro {
-        margin: 92px 48px 0 48px ;
+        margin: 92px 48px 0 48px;
     }
 }
 
-@media screen and (min-width: 1025px)  {
+@media screen and (min-width: 1025px) {
     .intro {
-        margin: 92px 148px 0 148px ;
+        margin: 92px 148px 0 148px;
     }
 }

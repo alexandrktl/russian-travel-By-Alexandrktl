@@ -7,27 +7,21 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 321px) and (max-width: 600px) {
+@media screen and (min-width: 321px) {
     .places {
-        margin: 88px auto 0 auto ;
-    }
-}
-@media screen and (min-width: 601px) and (max-width: 768px) {
-    .places {
-        margin: 88px 0 0 0 ;
+        margin: 88px auto 0 auto;
     }
 }
 
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) {
     .places {
-        margin: 92px 0 0 0 ;
+        margin: 88px 0 0 0;
     }
 }
 
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 769px) {
     .places {
-        margin: 92px 0 0 0  ;
+        margin: 92px 0 0 0;
     }
 }

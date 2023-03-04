@@ -6,7 +6,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 122%;
-
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -19,40 +19,12 @@
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 690px) {
+@media screen and (min-width: 501px) {
     .cover__subtitle {
         font-weight: 400;
         font-size: 20px;
         line-height: 125%;
         /* or 114% */
-        margin: 26px 120px 0 120px;
-    }
-}
 
-@media screen and (min-width: 691px) and (max-width: 939px) {
-    .cover__subtitle {
-
-        margin: 32px 204px 0 204px;
-    }
-
-}
-
-
-
-@media screen and (min-width: 940px) and (max-width: 1024px) {
-    .cover__subtitle {
-
-
-        margin: 32px 332px 0 332px;
-
-
-    }
-}
-
-
-@media screen and (min-width: 1025px) {
-    .cover__subtitle {
-
-        margin: 32px 412px 0 412px;
     }
 }
