@@ -5,7 +5,7 @@
     justify-content: flex-start;
     /* background-color: darkcyan; */
     margin: 64px 16px 0 16px;
-    padding-right: 65px;
+    
 }
 
 
@@ -18,12 +18,13 @@
 
 @media screen and (min-width: 769px) {
     .intro {
-        margin: 92px 48px 0 48px;
+        margin: 92px auto 0 48px;
+        max-width: 690px;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .intro {
-        margin: 92px 148px 0 148px;
+        margin: 92px auto 0 148px;
     }
 }

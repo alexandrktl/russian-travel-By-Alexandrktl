@@ -6,7 +6,7 @@
     grid-template-columns: 320px;
     grid-template-rows: auto;
     row-gap: 32px;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 
 .place:first-child {

@@ -1,31 +1,19 @@
 .cover {
-    width: 100%;
-    min-height: 200px;
     display: flex;
+    position: relative;
     justify-content: center;
-    flex-direction: column;
     background-image: url(../../images/trains-on-sunrise.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-sizing: border-box;
-    text-decoration: none;
-    position: relative;
+    min-height: 200px; 
+    width: 100%;
+    margin: 66px 0 0 0;
     z-index: 0;
-    margin: 66px 0 0 0 ;
+    /* align-items: stretch; */
 }
 
-.cover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(42, 44, 47);
-    opacity: 0.3;
-    z-index: -1;
-    min-height: 200px;
-    margin: 0;
-}
+
 
 .cover:hover::before {
     opacity: 0.8;
@@ -34,6 +22,7 @@
 @media screen and (min-width: 321px) {
     .cover {
         margin: 90px 0 0 0;
+        min-height: 480px;
     }
 
 }
@@ -43,6 +32,7 @@
 @media screen and (min-width: 769px) {
     .cover {
         margin: 92px 0 0 0;
+        min-height: 640px;
     }
 }
 
@@ -51,6 +41,7 @@
     .cover {
         max-width: 1184px;
         margin: 92px auto 0 auto;
+        min-height: 740px;
 
     }
 }

@@ -44,8 +44,8 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
-
- /* *{
-    border: solid 1px red ;
-} */ 
+/* * { outline: 0.1px solid yellow; } */
+  /* *{
+    border: solid 0.1px red ;
+}  */
 /* @import url(); */
