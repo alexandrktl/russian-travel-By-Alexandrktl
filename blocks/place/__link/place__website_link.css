@@ -6,7 +6,9 @@
     color: white;
     text-decoration-line: underline;
     margin-top: 12px;
+    opacity: 1.0;
+    
 }
-.website-link:hover{
+.place__link:hover{
     opacity: 0.8;
 }
