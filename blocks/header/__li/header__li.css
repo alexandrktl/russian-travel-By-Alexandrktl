@@ -1,0 +1,13 @@
+.header__li {
+    padding: 0;
+    display: flex;
+    margin: 0 18px 0 auto;
+}
+.header__li:last-child{
+    margin: 0;
+  
+}
+
+.header__li:hover{
+    opacity: 0.8;
+}

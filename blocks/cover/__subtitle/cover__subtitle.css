@@ -4,27 +4,15 @@
     text-align: center;
     justify-content: center;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 122%;
     color: white;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 16px 0 16px;
 }
-
-@media screen and (max-width: 500px) {
-    .cover__subtitle {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        /* or 114% */
-        margin: 16px 16px 0 16px;
-    }
-}
-
 @media screen and (min-width: 501px) {
     .cover__subtitle {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 125%;
-        /* or 114% */
+        font-size: 18px;
+        line-height: 122%;
 
     }
 }

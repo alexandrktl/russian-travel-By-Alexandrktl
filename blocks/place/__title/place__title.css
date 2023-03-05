@@ -1,44 +1,26 @@
 .place__title {
     text-align: left;
-    /*max-width: 460px;*/
     grid-row: 1/2;
     grid-column: 1/2;
-    margin: auto auto 0 0;
     font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
     color: white;
-}
-
-@media screen and (max-width: 500px) {
-    .places__title {
-        font-size: 32px;
-        line-height: 109%;
-        /* identical to box height, or 109% */
-        margin: 0 16px;
-    }
-
-
+    margin: 0 auto 0 16px;
 }
 
 @media screen and (min-width: 501px) {
-    .places__title {
+    .place__title {
         font-size: 42px;
         line-height: 110%;
+        margin: 0;
+       
     }
-
 }
 
-
-
-@media screen and (min-width: 769px) {
-    .places__title {
+@media screen and (min-width: 1024px) {
+    .place__title {
         font-size: 72px;
         line-height: 106%;
-    }
-}
-
-
-@media screen and (min-width: 1025px) {
-    .places__title {
-        font-size: 72px;
     }
 }

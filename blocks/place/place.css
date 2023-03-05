@@ -3,26 +3,18 @@
     margin-top: 80px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    margin: 0 auto;
+    grid-template-columns: 320px;
+    grid-template-rows: auto;
+    row-gap: 32px;
+    margin-top: 50px;
 }
 
 .place:first-child {
-    margin-top: 92px;
+    margin-top: 64px;
 }
 
 
-@media screen and (max-width: 500px) {
-    .place {
-        grid-template-columns: 320px;
-        grid-template-rows: auto;
-        row-gap: 32px;
-        margin-top: 50px;
-    }
 
-    .place:first-child {
-        margin-top: 64px;
-    }
-}
 
 @media screen and (min-width: 501px) {
     .place {

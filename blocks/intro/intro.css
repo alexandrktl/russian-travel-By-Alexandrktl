@@ -4,15 +4,11 @@
     margin: auto;
     justify-content: flex-start;
     /* background-color: darkcyan; */
+    margin: 64px 16px 0 16px;
+    padding-right: 65px;
 }
 
-@media screen and (max-width: 320px) {
-    .intro {
-        margin: 64px 16px 0 16px;
-        padding-right: 65px;
 
-    }
-}
 
 @media screen and (min-width: 321px) {
     .intro {

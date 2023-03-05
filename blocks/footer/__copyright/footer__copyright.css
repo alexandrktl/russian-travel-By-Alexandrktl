@@ -1,32 +1,22 @@
 .footer__copyright {
     color: white;
-    margin: 0 0 0 auto;
+    margin: 48px auto 0 0;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 114%;
 }
 
-@media screen and (max-width: 700px) {
-    .copyright {
-        margin: 48px auto 0 0;
-    }
-}
 
-@media screen and (min-width: 701px) {
-    .copyright {
+
+@media screen and (min-width: 768px) {
+    .footer__copyright {
         margin: auto 0 0 auto;
     }
 }
 
-@media screen and (min-width: 769px) {
-    .copyright {
+@media screen and (min-width: 1024px) {
+    .footer__copyright {
         margin: 0 0 0 auto;
-        line-height: 114%;
-    }
-}
-@media screen and (min-width: 1025px) {
-    .copyright {
-        margin: 0 0 0 auto;
-        line-height: 114%;
+        
     }
 }
