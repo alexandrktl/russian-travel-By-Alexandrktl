@@ -1,12 +1,12 @@
 .place {
     display: grid;
-    margin-top: 80px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     grid-template-columns: 320px;
     grid-template-rows: auto;
     row-gap: 32px;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
+    
 }
 
 .place:first-child {

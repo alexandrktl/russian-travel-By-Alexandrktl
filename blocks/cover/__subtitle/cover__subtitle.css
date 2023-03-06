@@ -9,7 +9,7 @@
     line-height: 16px;
     margin: 16px 16px 0 16px;
     max-width: 100%;
-    overflow: hidden;
+    
 }
 @media screen and (min-width: 321px) {
     .cover__subtitle {
